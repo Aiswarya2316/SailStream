@@ -4,6 +4,7 @@ import Home from "./component/Home";
 import Contact from "./component/Contact";
 import About from "./component/About";
 import Product from "./component/Product";
+import Footer from "./component/Footer";
 
 
 
@@ -14,6 +15,7 @@ function App(){
     <BrowserRouter>
     <Routes>
       <Route path='/'element={<Layout/>}>
+      <Route path="Footer" element={<Footer/>}/>
       <Route index element={<Home/>}/>
       <Route path="Contact" element={<Contact/>}/>
       <Route path="About" element={<About/>}/>
