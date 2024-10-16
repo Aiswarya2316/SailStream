@@ -14,13 +14,13 @@ function Home(){
   
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={img1} alt="Los Angeles" className="d-block" style={{"width:100%"}}/>
+      <img src={img1} alt="Los Angeles" className="d-block" style={"width:100%"}/>
     </div>
     <div className="carousel-item">
-      <img src={img2} alt="Chicago" className="d-block" style={{"width:100%"}}/>
+      <img src={img2} alt="Chicago" className="d-block" style={"width:100%"}/>
     </div>
     <div className="carousel-item">
-      <img src={img3} alt="New York" className="d-block" style={{"width:100%"}}/>
+      <img src={img3} alt="New York" className="d-block" style={"width:100%"}/>
     </div>
   </div>
   
