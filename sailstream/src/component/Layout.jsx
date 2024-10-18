@@ -13,7 +13,7 @@ function Layout(){
                 <div className="collapse navbar-collapse" id="mynavbar">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                    <Link to="/" className="nav-link">Home</Link>
+                    <Link to="/" className="nav-link" >Home</Link>
                     </li>
                     <li className="nav-item">
                     <Link to="/Contact" className="nav-link">Contact</Link>
